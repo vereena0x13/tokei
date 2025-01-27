@@ -953,6 +953,14 @@
       "nested": true,
       "extensions": ["lean", "hlean"]
     },
+    "Lsif": {
+      "name": "lsif",
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"]],
+      "nested": true,
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["lsif"]
+    },
     "Hledger": {
       "name": "hledger",
       "line_comment": [";", "#"],
